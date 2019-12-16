@@ -10,10 +10,10 @@ import static co.com.theninjastore.userinterfaces.DeleteArticleToCart.MESSAGE_CA
 
 public class VerifyArticleDeletedToCart implements Question {
 
+    private String delete;
 
-    public VerifyArticleDeletedToCart() {
 
-    }
+
 
     @Override
     public Boolean answeredBy(Actor actor) {

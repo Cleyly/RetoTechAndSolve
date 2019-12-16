@@ -13,7 +13,6 @@ import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
 import static co.com.theninjastore.tasks.DeleteArticleToCart.deleteArticle;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-import static org.hamcrest.Matchers.is;
 
 public class DeleteArticleToCartStepDefinitions {
 
