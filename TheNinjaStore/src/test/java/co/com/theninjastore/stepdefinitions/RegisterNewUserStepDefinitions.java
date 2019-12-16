@@ -47,10 +47,10 @@ public class RegisterNewUserStepDefinitions {
 
 	}
 
-	@Then("^she should to verify the account has been created$")
-	public void sheShouldToVerifyTheAccountHasBeenCreatedT(){
+	@Then("^she should verify the account has been created$")
+	public void sheShouldVerifyTheAccountHasBeenCreatedT(){
 		Cleyly.should(
-				seeThat(VerifyNewRegister.verifyName(FIRST_NAME), is(true))
+				seeThat(VerifyNewRegister.verifyName(FIRST_NAME))
 		);
 
 	}

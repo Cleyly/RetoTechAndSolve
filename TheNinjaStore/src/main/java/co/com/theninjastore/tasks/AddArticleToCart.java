@@ -1,9 +1,9 @@
 package co.com.theninjastore.tasks;
 
 import static co.com.theninjastore.userinterfaces.AddArticleToCart.*;
-import static co.com.theninjastore.userinterfaces.VerifyArticleInCart.SHOPPING_CART;
+import static co.com.theninjastore.userinterfaces.ShoppingCartPage.SHOPPING_CART;
 
-import co.com.theninjastore.userinterfaces.VerifyArticleInCart;
+import co.com.theninjastore.userinterfaces.ShoppingCartPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
@@ -19,7 +19,7 @@ public class AddArticleToCart implements Task {
 				Click.on(PHONES_AND_PDAS),
 				Click.on(ADD_TO_CART),
 				Click.on(SHOPPING_CART),
-				Enter.theValue(QUANTITY).into(VerifyArticleInCart.QUANTITY)
+				Enter.theValue(QUANTITY).into(ShoppingCartPage.QUANTITY)
 
 		);
 

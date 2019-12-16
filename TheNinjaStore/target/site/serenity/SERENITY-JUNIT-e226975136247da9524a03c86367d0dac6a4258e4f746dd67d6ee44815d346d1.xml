@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Add article and to verify" skipped="0" tests="1" time="19.19" timestamp="2019-12-15 11:55:28"><testcase name="Add article in the shopping cart"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Add article and to verify" skipped="0" tests="1" time="33.63" timestamp="2019-12-16 03:05:15"><testcase name="Add article in the shopping cart"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+co.com.theninjastore.tasks.AddArticleToCart.performAs(AddArticleToCart.java:18)&#13;
+co.com.theninjastore.stepdefinitions.AddArticleToCartStepDefinitions.sheToAddArticleOfPhonesAndPDAsInTheShoppingCart(AddArticleToCartStepDefinitions.java:43)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

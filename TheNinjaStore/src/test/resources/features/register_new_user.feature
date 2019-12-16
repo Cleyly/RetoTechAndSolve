@@ -5,5 +5,5 @@ Feature: Register new user and to verify
 
   Scenario: Register new user
     Given the customer enters the page
-    When she register the new user
-    Then she should to verify the account has been created
+    When she registers the new user
+    Then she should verify the account has been created

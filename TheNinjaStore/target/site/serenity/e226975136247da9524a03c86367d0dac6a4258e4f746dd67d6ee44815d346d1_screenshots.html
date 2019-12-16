@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-12-2019 23:55</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-12-2019 15:05</span>
     <br style="clear:left"/>
 </div>
 
@@ -156,9 +156,9 @@ To the shopping cart
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Add article in the shopping cart
+                                <span class="failing-color">Add article in the shopping cart
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -175,31 +175,95 @@ To the shopping cart
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Element should be enabled exception: Expected enabled element was not enabled">
+                            Element should be enabled exception: Expected enabled element was not enabled
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Expected enabled element was not enabled</pre>
+                                    </h5>
+                                    co.com.theninjastore.tasks.AddArticleToCart.performAs(AddArticleToCart.java
+                                    :18) <br>
+                                    co.com.theninjastore.stepdefinitions.AddArticleToCartStepDefinitions.sheToAddArticleOfPhonesAndPDAsInTheShoppingCart(AddArticleToCartStepDefinitions.java
+                                    :43) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: org.openqa.selenium.TimeoutException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;content&quot;]/form/div/table/tbody/tr/td[4]/div/input to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                                    <pre>
+                                        co.com.theninjastore.tasks.AddArticleToCart.performAs(AddArticleToCart.java :18) <br>
+                                        co.com.theninjastore.stepdefinitions.AddArticleToCartStepDefinitions.sheToAddArticleOfPhonesAndPDAsInTheShoppingCart(AddArticleToCartStepDefinitions.java :43) <br>
+                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
+                                    </pre>
+                                </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource2277198346720499569.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="ead358ee936bf92410633b5495643030c339ec6c0aac7ec7b442a0e8aa9c14ac.png" title="Given the customer login on the page" width="1366"/>
-                <img src="8e5978977b9516f890cf38df7ab600c34d82aca3791ab186b2976e0db957734e.png" title="Cleyly opens the The ninja store login" width="1366"/>
-                <img src="8e5978977b9516f890cf38df7ab600c34d82aca3791ab186b2976e0db957734e.png" title="Cleyly clicks on My account" width="1366"/>
-                <img src="82974b1d810cc07088f7f53d5c75ade8d0ad18341fbb4429aabcfd3f6ec94ae2.png" title="Cleyly clicks on My account" width="1366"/>
-                <img src="82974b1d810cc07088f7f53d5c75ade8d0ad18341fbb4429aabcfd3f6ec94ae2.png" title="Cleyly clicks on Button login" width="1366"/>
+                <img src="85a545dd789dc271c46c126589b2d7b4214887cccc9a1e3013f1765f010f2dfe.png" title="Given the customer login on the page" width="1366"/>
+                <img src="7b2cb04f58ee901344727743e883c9ec789a47163ce66be5277a68a9b17bd9cb.png" title="Cleyly opens the The ninja store login" width="1366"/>
+                <img src="827ffca7486a0c8b1b69a346b4c7c874af4b2e182c344c21a76c92c0b097766c.png" title="Cleyly clicks on My account" width="1366"/>
+                <img src="e3438e3cc0dd16b34a0b6ec9d0d23d1f9bb5be009dfa04ca73e546c104d13cbd.png" title="Cleyly clicks on My account" width="1366"/>
+                <img src="e3438e3cc0dd16b34a0b6ec9d0d23d1f9bb5be009dfa04ca73e546c104d13cbd.png" title="Cleyly clicks on Button login" width="1366"/>
                 <img src="bd20759863d31a60e1caa1b3cf254984e4b7fe23f619ed293fdbf7926ba3240d.png" title="Cleyly clicks on Button login" width="1366"/>
                 <img src="bd20759863d31a60e1caa1b3cf254984e4b7fe23f619ed293fdbf7926ba3240d.png" title="Cleyly enters 'cleyly59@gmail.com' into Email address" width="1366"/>
                 <img src="27dde12b2e2843e0f99bb117e0d5c32fb8d541e76f1713249d5993fa0fb53686.png" title="Cleyly enters 'cleyly59@gmail.com' into Email address" width="1366"/>
                 <img src="0fc8083993bb0510a6c31becdd0fb64d0a77fcfd201424d5f3bd723e8f5dab3c.png" title="Cleyly enters 'Lucas' into Password" width="1366"/>
                 <img src="82af929d175062e0445c0847080a083adc1d4e7ec2645455d13a8ba32262c413.png" title="Cleyly enters 'Lucas' into Password" width="1366"/>
-                <img src="82af929d175062e0445c0847080a083adc1d4e7ec2645455d13a8ba32262c413.png" title="Cleyly clicks on Btn login" width="1366"/>
-                <img src="ead358ee936bf92410633b5495643030c339ec6c0aac7ec7b442a0e8aa9c14ac.png" title="Cleyly clicks on Btn login" width="1366"/>
-                <img src="1eb968f8d56199c3eeb555fec2da6df3f80b63aa450928750df7ec65ddead275.png" title="When she to add article of 'Phones and PDAs' in the shopping cart" width="1366"/>
-                <img src="916469c3f4b77fcd412e54e418195b46af49a1d5c14aaf6a51d03cb4672a8737.png" title="Cleyly clicks on Phones and pdas" width="1366"/>
-                <img src="916469c3f4b77fcd412e54e418195b46af49a1d5c14aaf6a51d03cb4672a8737.png" title="Cleyly clicks on Add to cart" width="1366"/>
-                <img src="a30227cbb4cb6d611378bc851e691d689eacc2d2fe13298a6dd36bf3838fc922.png" title="Cleyly clicks on Add to cart" width="1366"/>
-                <img src="8c1e30ab2ba05751755d5e147d460559facddab24a262da64f9318044dc1ef6d.png" title="Cleyly clicks on Shopping cart" width="1366"/>
-                <img src="342719b2bc6c5c31cc542ca15f2a71919406a877c3275b7d1c30a6fe8cb86b5f.png" title="Cleyly clicks on Shopping cart" width="1366"/>
-                <img src="342719b2bc6c5c31cc542ca15f2a71919406a877c3275b7d1c30a6fe8cb86b5f.png" title="Cleyly enters '1' into Quantity" width="1366"/>
-                <img src="31fd7ac23354a4648d6bc908fff4bbd6dc28acab0a9734b07aa839503e1a6be1.png" title="Cleyly enters '1' into Quantity" width="1366"/>
-                <img src="1eb968f8d56199c3eeb555fec2da6df3f80b63aa450928750df7ec65ddead275.png" title="Then she should to verify the article added" width="1366"/>
-                <img src="31fd7ac23354a4648d6bc908fff4bbd6dc28acab0a9734b07aa839503e1a6be1.png" title="Then verify article added to cart should be (true)" width="1366"/>
-                <img src="1eb968f8d56199c3eeb555fec2da6df3f80b63aa450928750df7ec65ddead275.png" title="Then verify article added to cart should be (true): <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="96c96a79667ade0d33006b286f0928376f46b5a270d6019cd825f70812df7597.png" title="Cleyly clicks on Btn login" width="1366"/>
+                <img src="85a545dd789dc271c46c126589b2d7b4214887cccc9a1e3013f1765f010f2dfe.png" title="Cleyly clicks on Btn login" width="1366"/>
+                <img src="85a545dd789dc271c46c126589b2d7b4214887cccc9a1e3013f1765f010f2dfe.png" title="When she to add article of 'Phones and PDAs' in the shopping cart" width="1366"/>
+                <img src="7f9bf8c6ee27ae946f0e499332bc65b0e34c4ee3c5bd5377a7ab25b450a21ed9.png" title="Cleyly clicks on Phones and pdas" width="1366"/>
+                <img src="7f9bf8c6ee27ae946f0e499332bc65b0e34c4ee3c5bd5377a7ab25b450a21ed9.png" title="Cleyly clicks on Add to cart" width="1366"/>
+                <img src="998f128d76af60fe401ed883d9704f93b6171a386cf91384a2538b024551468b.png" title="Cleyly clicks on Add to cart" width="1366"/>
+                <img src="d9999e1be7a184c74c6338686aebffd96e42e8baf433bdc8374b854fc5d6ff38.png" title="Cleyly clicks on Shopping cart" width="1366"/>
+                <img src="ea0fe5c4412eaf92f237527d4a078a3e793d37402c6b27f704a8e4820848c076.png" title="Cleyly clicks on Shopping cart" width="1366"/>
+                <img src="ea0fe5c4412eaf92f237527d4a078a3e793d37402c6b27f704a8e4820848c076.png" title="Cleyly enters '1' into Quantity" width="1366"/>
+                <img src="ea0fe5c4412eaf92f237527d4a078a3e793d37402c6b27f704a8e4820848c076.png" title="Cleyly enters '1' into Quantity: <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 

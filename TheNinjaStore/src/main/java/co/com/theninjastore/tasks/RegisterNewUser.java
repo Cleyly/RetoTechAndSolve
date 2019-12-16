@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
 import static co.com.theninjastore.userinterfaces.TheNinjaStoreRegister.*;
-import static co.com.theninjastore.userinterfaces.VerifyUserCreated.EDIT_ACCOUNT;
+import static co.com.theninjastore.userinterfaces.ConfirmationPageUserCreated.EDIT_ACCOUNT;
 
 public class RegisterNewUser implements Task {
 

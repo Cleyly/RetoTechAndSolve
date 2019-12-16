@@ -46,10 +46,10 @@ public class AddArticleToCartStepDefinitions {
 
     }
 
-    @Then("^she should to verify the article added$")
-    public void sheShouldToVerifyTheArticleAdded() {
+    @Then("^she should verify the article added$")
+    public void sheShouldVerifyTheArticleAdded() {
         Cleyly.should(
-                seeThat(VerifyArticleAddedToCart.articleInCart(QUANTITY), is(true))
+                seeThat(VerifyArticleAddedToCart.articleInCart(QUANTITY))
 
         );
 

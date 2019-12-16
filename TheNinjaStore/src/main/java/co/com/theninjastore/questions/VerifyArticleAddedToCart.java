@@ -2,7 +2,7 @@ package co.com.theninjastore.questions;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
-import static co.com.theninjastore.userinterfaces.VerifyArticleInCart.QUANTITY;
+import static co.com.theninjastore.userinterfaces.ShoppingCartPage.QUANTITY;
 
 public class VerifyArticleAddedToCart implements Question {
 
@@ -14,11 +14,7 @@ public class VerifyArticleAddedToCart implements Question {
     public Boolean answeredBy(Actor actor) {
         String articleAdd = QUANTITY.resolveFor(actor).getValue();
 
-        if(articleAdd.equalsIgnoreCase(this.articleAdd)){
-            return true;
-        } else {
-            return false;
-        }
+        return (articleAdd.equalsIgnoreCase(this.articleAdd));
 
     }
 

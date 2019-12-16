@@ -5,8 +5,8 @@ import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.questions.Text;
 
-import static co.com.theninjastore.userinterfaces.VerifyArticleInWishList.PRODUCT_NAME;
-import static co.com.theninjastore.userinterfaces.VerifyArticleInWishList.WISH_LIST;
+import static co.com.theninjastore.userinterfaces.WishListPage.PRODUCT_NAME;
+import static co.com.theninjastore.userinterfaces.WishListPage.WISH_LIST;
 
 public class VerifyArticleAddedWishList implements Question {
 
@@ -24,11 +24,8 @@ public class VerifyArticleAddedWishList implements Question {
 
         String nameArticleAddedWishList = Text.of(PRODUCT_NAME).viewedBy(actor).asString();
 
-        if(nameArticleAddedWishList.equalsIgnoreCase(this.nameArticleAddedWishList)){
-            return true;
-        } else {
-            return false;
-        }
+        return nameArticleAddedWishList.equalsIgnoreCase(this.nameArticleAddedWishList);
+
     }
 
     public static VerifyArticleAddedWishList articleWish(String nameArticleAddedWishList) { return new VerifyArticleAddedWishList(nameArticleAddedWishList); }

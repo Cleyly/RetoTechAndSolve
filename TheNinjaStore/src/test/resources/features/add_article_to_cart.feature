@@ -7,4 +7,4 @@ Feature: Add article and to verify
 	Scenario: Add article in the shopping cart
 	Given the customer login on the page
 	When she to add article of 'Phones and PDAs' in the shopping cart
-	Then she should to verify the article added
+	Then she should verify the article added
