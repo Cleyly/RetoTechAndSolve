@@ -1,0 +1,4 @@
+
+fsquid:HiddenFieldCheck"=Rename "firstName" which hides the field declared at line 11.(‚çåñ8¨ûµŞğ-
+tsquid:UselessImportCheck"IRemove this unused import 'co.com.theninjastore.tasks.VerifyUserCreated'.(Îà˜°8ÒÉÎŞğ-
+_squid:S1126"AReplace this if-then-else statement by a single return statement.(õù‘8§ÌÂŞğ-
