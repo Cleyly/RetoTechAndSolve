@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85dc8dd4-e06d-4eeb-a406-bf852daba1a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97db0e7be0a5912bb82ee7cb70763d1d19232fce" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97db0e7be0a5912bb82ee7cb70763d1d19232fce" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c40267b0a668464e360ca1eda1b76686379677c2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c40267b0a668464e360ca1eda1b76686379677c2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8386888da706300a70043374987679c96490d93" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8386888da706300a70043374987679c96490d93" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/TheNinjaStore.main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/questions/VerifyArticleAddedToCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/questions/VerifyArticleAddedToCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/questions/VerifyArticleAddedWishList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/questions/VerifyArticleAddedWishList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/questions/VerifyNewRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/questions/VerifyNewRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/tasks/AddArticleToCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/tasks/AddArticleToCart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/tasks/RegisterNewUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/tasks/RegisterNewUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/tasks/VerifyShoppingCart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/userinterfaces/VerifyArticleInCart.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/userinterfaces/VerifyArticleInWishList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/co/com/theninjastore/userinterfaces/VerifyUserCreated.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/META-INF/TheNinjaStore.main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/co/com/theninjastore/stepdefinitions/AddArticleToCartStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/co/com/theninjastore/stepdefinitions/AddArticleToCartStepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/co/com/theninjastore/stepdefinitions/RegisterNewUserStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/co/com/theninjastore/stepdefinitions/RegisterNewUserStepDefinitions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/features/add_article_to_cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/features/add_article_to_cart.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/features/register_new_user.feature" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/features/register_new_user.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/questions/VerifyArticleAddedToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/questions/VerifyArticleAddedToCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/questions/VerifyArticleAddedWishList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/questions/VerifyArticleAddedWishList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/questions/VerifyNewRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/questions/VerifyNewRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/tasks/AddArticleToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/tasks/AddArticleToCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/tasks/RegisterNewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/tasks/RegisterNewUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/userinterfaces/VerifyArticleInCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/userinterfaces/ShoppingCartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/userinterfaces/VerifyArticleInWishList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/userinterfaces/WishListPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/userinterfaces/VerifyUserCreated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/theninjastore/userinterfaces/ConfirmationPageUserCreated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/theninjastore/stepdefinitions/AddArticleToCartStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/theninjastore/stepdefinitions/AddArticleToCartStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/com/theninjastore/stepdefinitions/RegisterNewUserStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/com/theninjastore/stepdefinitions/RegisterNewUserStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/add_article_to_cart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/add_article_to_cart.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/register_new_user.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/register_new_user.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/2a7978a2c273ec79088c2056437532b6b87681324c4627cabc6e7fbe6cb80b33.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2a7978a2c273ec79088c2056437532b6b87681324c4627cabc6e7fbe6cb80b33.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/2a7978a2c273ec79088c2056437532b6b87681324c4627cabc6e7fbe6cb80b33.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2a7978a2c273ec79088c2056437532b6b87681324c4627cabc6e7fbe6cb80b33.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/2a7978a2c273ec79088c2056437532b6b87681324c4627cabc6e7fbe6cb80b33_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/2a7978a2c273ec79088c2056437532b6b87681324c4627cabc6e7fbe6cb80b33_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-2a7978a2c273ec79088c2056437532b6b87681324c4627cabc6e7fbe6cb80b33.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-2a7978a2c273ec79088c2056437532b6b87681324c4627cabc6e7fbe6cb80b33.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-e226975136247da9524a03c86367d0dac6a4258e4f746dd67d6ee44815d346d1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-e226975136247da9524a03c86367d0dac6a4258e4f746dd67d6ee44815d346d1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/e226975136247da9524a03c86367d0dac6a4258e4f746dd67d6ee44815d346d1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/e226975136247da9524a03c86367d0dac6a4258e4f746dd67d6ee44815d346d1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/e226975136247da9524a03c86367d0dac6a4258e4f746dd67d6ee44815d346d1.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/e226975136247da9524a03c86367d0dac6a4258e4f746dd67d6ee44815d346d1.json" afterDir="false" />
-    </list>
+    <list default="true" id="85dc8dd4-e06d-4eeb-a406-bf852daba1a1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -91,6 +51,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/co/com/theninjastore/userinterfaces/ShoppingCartPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/co/com/theninjastore/stepdefinitions/AddArticleToCartStepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/co/com/theninjastore/questions/VerifyArticleAddedToCart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+            <state relative-caret-position="150">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -476,9 +448,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Delete - 2019.12.15 at 23h 02m 13s.xml">
-      <configuration name="Delete" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Delete - 2019.12.15 at 23h 05m 49s.xml">
       <configuration name="Delete" configurationId="JUnit" />
     </history-entry>
@@ -506,12 +475,15 @@
     <history-entry file="AddArticleToCart - 2019.12.16 at 15h 03m 06s.xml">
       <configuration name="AddArticleToCart" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddArticleToCart - 2019.12.16 at 15h 05m 52s.xml">
+      <configuration name="AddArticleToCart" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30181542" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30181542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -520,7 +492,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.20408164" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3792517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2414966" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26020408" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -797,16 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/theninjastore/userinterfaces/ShoppingCartPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/theninjastore/questions/VerifyArticleDeletedToCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -902,8 +864,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/co/com/theninjastore/questions/VerifyArticleAddedToCart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        <state relative-caret-position="150">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/co/com/theninjastore/userinterfaces/ShoppingCartPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

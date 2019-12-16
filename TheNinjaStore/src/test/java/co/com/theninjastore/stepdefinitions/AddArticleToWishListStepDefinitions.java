@@ -50,7 +50,7 @@ public class AddArticleToWishListStepDefinitions {
     @Then("^she should see the article '(.*)' added$")
     public void sheShouldSeeTheArticleAdded(String productName) {
         Cleyly.should(
-                seeThat(VerifyArticleAddedWishList.articleWish(productName), is(true))
+                seeThat(VerifyArticleAddedWishList.articleWish(productName))
         );
 
     }
