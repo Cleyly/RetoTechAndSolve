@@ -13,10 +13,10 @@ public class RegisterNewUser implements Task {
 
     public static final String FIRST_NAME = "Joyce";
     private static final String LAST_NAME = "Montoya";
-    private static final String EMAIL = "asdfg@gmail.com";
-    private static final String TELEPHONE = "30085786";
-    private static final String PASSWORD = "Athos";
-    private static final String PASSWORD_CONFIRM = "Athos";
+    private static final String EMAIL = "abcd@gmail.com";
+    private static final String TELEPHONE = "3007650924";
+    private static final String PASSWORD = "Azul";
+    private static final String PASSWORD_CONFIRM = "Azul";
 
     @Override
     public <T extends Actor> void performAs(T actor) {

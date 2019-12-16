@@ -55,3 +55,5 @@ z
 Jsrc/main/java/co/com/theninjastore/userinterfaces/VerifyArticleInCart.java,9\b\9bbfcab17417cdf4b237e2f66a7dac43334e9168
 ‡
 Wsrc/test/java/co/com/theninjastore/stepdefinitions/AddArticleToCartStepDefinitions.java,0\c\0cd468f8a9771260c89777955a2e0454757b4203
+?
+settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
